@@ -1,0 +1,6 @@
+POST {{paypal-base-url}}/v1/oauth2/token?client_id={{client_id}}&secret={{secret}}
+Accept: application/json
+Content-Type: application/json
+
+
+###
