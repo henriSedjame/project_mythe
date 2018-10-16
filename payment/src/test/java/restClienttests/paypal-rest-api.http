@@ -1,6 +1,8 @@
-POST {{paypal-base-url}}/v1/oauth2/token?client_id={{client_id}}&secret={{secret}}
-Accept: application/json
-Content-Type: application/json
+POST https://api.sandbox.paypal.com/v1/oauth2/token
+Authorization: Basic QVJZTS1JcU5IS093NUNUaHY2U01Xa3dVbEFjMzRmTEJqaUFZQVd2R3dVUzlfbUFiaGg0VnQ2UGdTNHNPZlZEWWZKNUVQUWp4WVgwWlRJRkU6RUlqSU1HcktkWHdvZ0wwUXlsOFE3dS1DUDdQbnVuZUJKWTZ1a3BmWGgzeVNLV0Y1NEh6eGlnSVdqWW45MTA4M1YwbFF4Zk5ocnBMN0JwbmQ=
+Content-Type: application/x-www-form-urlencoded
+Accept-Language: en_US
 
+grant_type=client_credentials
 
 ###
