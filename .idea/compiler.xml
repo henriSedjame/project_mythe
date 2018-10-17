@@ -10,7 +10,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="insee_auth" target="1.8" />
       <module name="insee_authentication" target="1.8" />
       <module name="project_mythe" target="1.8" />
     </bytecodeTargetLevel>
