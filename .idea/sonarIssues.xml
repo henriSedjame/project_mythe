@@ -28,51 +28,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/payment/pom.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/main/java/Main.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/main/resources/application-payment.yml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/main/resources/application.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/PaymentApplicationTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/test/java/restClienttests/paypal-rest-api.http">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/test/java/restClienttests/rest-client.env.json">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/test/resources/application-paypal-test.yml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/payment/src/test/resources/application.yml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
