@@ -4,6 +4,7 @@ import com.paypal.api.payments.*;
 import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.PayPalRESTException;
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
 
 import java.util.ArrayList;
@@ -67,7 +68,7 @@ public class sampleOneTest {
      */
     RedirectUrls redirectUrls = new RedirectUrls();
     redirectUrls.setCancelUrl("www.google.com");
-    redirectUrls.setReturnUrl("www.google.com");
+    redirectUrls.setReturnUrl("http://localhost:8082/paypal/success");
 
     /**
      * Créer un paiement
@@ -89,14 +90,10 @@ public class sampleOneTest {
 
       APIContext context= new APIContext(clientId, secret, Mode.SANDBOX.getName());
       Payment payment = this.createAPayment().create(context);
+      final String approval_url = payment.getLinks().stream().filter(link -> link.getRel().equals("approval_url")).map(link -> link.getHref()).findFirst().get();
 
-      PaymentExecution paymentExecution = new PaymentExecution();
-     // paymentExecution.setPayerId(payment.getPayer().getPayerInfo().getPayerId());
 
-      System.out.println(" ************************************************* ");
-      Payment createPayment = payment.execute(context, paymentExecution);
-      System.out.println(" ************************************************* ");
-      System.out.println(createPayment);
+      System.out.println(approval_url);
 
     } catch (PayPalRESTException e) {
       e.printStackTrace();
