@@ -8,12 +8,52 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/.circleci/config.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/compiler.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/encodings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/insee_auth/src/test/java/fr/project/mythe/InseeAuthapplicationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/insee_authentication/pom.xml">
           <value>
             <set />
           </value>
@@ -38,6 +78,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/PaymentApplicationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/sampleOne.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/sampleOneTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/payment/src/test/java/restClienttests/paypal-rest-api.http">
           <value>
             <set />
@@ -54,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/payment/src/test/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/resources/sdk_config.properties">
           <value>
             <set />
           </value>

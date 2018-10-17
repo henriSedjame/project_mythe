@@ -1,3 +1,8 @@
 spring:
   profiles:
     active: paypal-test
+
+paypal :
+  api :
+    clientId : "ARYM-IqNHKOw5CThv6SMWkwUlAc34fLBjiAYAWvGwUS9_mAbhh4Vt6PgS4sOfVDYfJ5EPQjxYX0ZTIFE"
+    secret : "EIjIMGrKdXwogL0Qyl8Q7u-CP7PnuneBJY6ukpfXh3ySKWF54HzxigIWjYn91083V0lQxfNhrpL7Bpnd"
