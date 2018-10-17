@@ -12,6 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/insee_auth/pom.xml" />
         <option value="$PROJECT_DIR$/payment/pom.xml" />
       </set>
     </option>

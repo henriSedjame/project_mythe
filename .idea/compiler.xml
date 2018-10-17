@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insee_auth" />
+        <module name="insee_authentication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="insee_auth" target="1.8" />
+      <module name="insee_authentication" target="1.8" />
       <module name="project_mythe" target="1.8" />
     </bytecodeTargetLevel>
   </component>

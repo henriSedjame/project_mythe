@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/insee_auth/insee_auth.iml" filepath="$PROJECT_DIR$/insee_auth/insee_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insee_authentication/insee_authentication.iml" filepath="$PROJECT_DIR$/insee_authentication/insee_authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_mythe.iml" filepath="$PROJECT_DIR$/project_mythe.iml" />
     </modules>
   </component>

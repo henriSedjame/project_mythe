@@ -9,6 +9,7 @@
     <modules>
         <module>payment</module>
       <module>insee_auth</module>
+        <module>insee_authentication</module>
     </modules>
     <packaging>pom</packaging>
 

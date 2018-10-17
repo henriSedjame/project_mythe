@@ -1,7 +1,0 @@
-insee :
-  entreprises :
-    base-url : "https://entreprise.api.gouv.fr/v2/entreprises/:siren"
-    token : ""
-    context : ""
-    recipient : ""
-    object : ""
