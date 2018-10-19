@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: payment
+server:
+  port: 8082

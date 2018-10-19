@@ -23,6 +23,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../demo5/src/main/java/com/example/demo/DemoApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../demo5/src/main/java/com/example/demo/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../demo5/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.circleci/config.yml">
           <value>
             <set />
@@ -68,6 +83,71 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/ComponentClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/PaymentApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/PaypalPaymentExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/PayPalConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/PaymentProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/PaypalMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/PaypalPaymentExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/configuration/PayPalConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/configuration/PaypalConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/configuration/PaypalMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/service/PaypalPaymentService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/java/fr/project/mythe/payment/paypal/service/impl/PaypalPaymentServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/payment/src/main/resources/application-payment.yml">
           <value>
             <set />
@@ -78,7 +158,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/resources/paypal_sdk_config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/main/resources/paypal_sdk_config.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/PaymentApplicationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/PaymentProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/java/fr/project/mythe/payment/paypal/service/impl/PaypalPaymentServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -104,6 +209,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/payment/src/test/resources/application-paypal-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/payment/src/test/resources/application.properties">
           <value>
             <set />
           </value>

@@ -1,35 +1,18 @@
-package fr.project.mythe;
+package fr.project.mythe.payment.paypal;
 
 import com.paypal.api.payments.*;
-import com.paypal.base.rest.APIContext;
-import com.paypal.base.rest.PayPalRESTException;
-import org.junit.Test;
-import org.springframework.util.CollectionUtils;
-
+import org.springframework.context.annotation.Profile;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-public class sampleOneTest {
-
-  enum Mode {
-    SANDBOX,
-    LIVE;
-
-    public String getName(){
-      return this.name().toLowerCase();
-    }
-  }
-  private String clientId = "ARYM-IqNHKOw5CThv6SMWkwUlAc34fLBjiAYAWvGwUS9_mAbhh4Vt6PgS4sOfVDYfJ5EPQjxYX0ZTIFE";
-  private String secret ="EIjIMGrKdXwogL0Qyl8Q7u-CP7PnuneBJY6ukpfXh3ySKWF54HzxigIWjYn91083V0lQxfNhrpL7Bpnd";
+public class PaymentProvider {
 
   /**
    * Methode de création d'un paiement par paypal
    * @return
    */
-  public Payment createAPayment(){
+  public static Payment createAPayment() {
 
     /**
      *  Créer un montant
@@ -81,23 +64,6 @@ public class sampleOneTest {
 
     return payment;
 
-  }
-
-  @Test
-  public void test(){
-
-    try {
-
-      APIContext context= new APIContext(clientId, secret, Mode.SANDBOX.getName());
-      Payment payment = this.createAPayment().create(context);
-      final String approval_url = payment.getLinks().stream().filter(link -> link.getRel().equals("approval_url")).map(link -> link.getHref()).findFirst().get();
-
-
-      System.out.println(approval_url);
-
-    } catch (PayPalRESTException e) {
-      e.printStackTrace();
-    }
   }
 
 }
