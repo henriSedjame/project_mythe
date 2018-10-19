@@ -10,12 +10,19 @@ import org.springframework.stereotype.Component;
 @Configuration
 @PropertySource("classpath:paypal_sdk_config.properties")
 public class PayPalConfig {
+
   @Value("${clientID}")
   private String clientId;
   @Value("${secret}")
   private String secret;
 
-  public APIContext getConfig() {
-    return new APIContext(clientId, secret, PaypalMode.SANDBOX.name().toLowerCase());
+  private APIContext context;
+
+  public PayPalConfig() {
+    this.context = new APIContext(clientId, secret, PaypalMode.SANDBOX.name().toLowerCase());
+  }
+
+  public APIContext getContext() {
+    return this.context;
   }
 }
